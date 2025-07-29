@@ -1,6 +1,6 @@
 # Project: Sports Car Price Analysis and Visualization
 
-This project explores the relationship between price, performance, and certain specifications in high-end sports cars. Through a series of insightful visualizations, it aims to uncover patterns across brands that drive vehicle cost and prestige.
+This project explores the relationship between price, performance, and certain specifications in sports cars. Through a series of insightful visualizations, it aims to uncover patterns across brands that drive vehicle cost and prestige.
 
 ## Data
 
