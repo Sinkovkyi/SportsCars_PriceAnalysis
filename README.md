@@ -1,13 +1,12 @@
 # Project: Sports Car Price Analysis and Visualization
 
-This project explores the relationship between price, performance, and engine specifications in the world of high-end sports cars.  
-Through a series of insightful visualizations, the goal is to uncover patterns across brands, speed capabilities, and engineering metrics that drive vehicle cost and prestige.
+This project explores the relationship between price, performance, and certain specifications in high-end sports cars. Through a series of insightful visualizations, it aims to uncover patterns across brands that drive vehicle cost and prestige.
 
 ## Data
 
 The dataset includes the following key columns:
 
-- **Car Make**: The manufacturer or brand of the car (e.g., Ferrari, Lamborghini).  
+- **Car Make**: The car manufacturer (e.g., Ferrari, Lamborghini).  
 - **Car Model**: The specific model name of the car.  
 - **Year**: The model year of the car.  
 - **Engine Size (L)**: The engine displacement in liters.  
@@ -30,7 +29,7 @@ The project includes four main visualizations to analyze various aspects of spor
 
 
 
-3. **Price Distribution Across Car Brands**  
+2. **Price Distribution Across Car Brands**  
    A boxplot visualization displaying the distribution of car prices for all brands on a logarithmic scale.  
    Outliers are hidden to focus on the core price range, providing insight into the typical price ranges and variability within each brand, and allowing comparison across multiple manufacturers.
    
@@ -38,17 +37,16 @@ The project includes four main visualizations to analyze various aspects of spor
 
 
    
-5. **Fastest Cars Accelerating from 0 to 60 MPH Under 3 Seconds with Price Coloring**  
-   This bar chart displays car models capable of accelerating from 0 to 60 mph in under 3 seconds.  
-   Cars are sorted by their acceleration time in descending order. Each bar is color-coded based on the car's price, helping to quickly compare performance against cost.  
-   The color gradient represents the price range, with a capped upper limit to ensure visual clarity between extremely high-priced models and the rest.  
+3. **Fastest Cars with Price Coloring**
+   Bar chart displays car models capable of accelerating from 0 to 60 mph in under 3 seconds.  
+   Cars are sorted by their acceleration time in descending order. Each bar is color-coded based on the car's price, helping to quickly compare performance against cost. The color gradient represents the price range, with a capped upper limit to ensure visual clarity between extremely high-priced models and the rest.  
    This chart allows for an intuitive comparison between speed and cost across elite supercars.
    
    ![Описание](images/demo_plot_3.png)
 
 
 
-7. **Relationship Between Engine Size and Price**  
+4. **Relationship Between Engine Size and Price**  
    A quadratic regression plot that demonstrates how engine size (in liters) affects the car price, plotted on a logarithmic scale.  
    This visualization helps to understand the correlation between engine capacity and market value, categorizing prices into low, medium, and high tiers based on engine displacement.
    
@@ -68,6 +66,7 @@ The final output of this project includes:
 
 - A visual analysis tool to support decision-making and further research into sports car pricing and performance.
 
+## How to Run
 
 ```bash
 pip install -r requirements.txt
