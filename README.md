@@ -25,26 +25,33 @@ The project includes four main visualizations to analyze various aspects of spor
 1. **Price Trends of Top 3 Sports Car Brands**  
    This plot shows the price evolution over recent years (from 2019 onwards) for Ferrari, Lamborghini, and McLaren.  
    Using logarithmic scale and regression lines, it highlights the pricing trends for these luxury brands, making it easier to compare their market dynamics.
+   
    ![Описание](images/demo_plot_1.png)
 
 
-2. **Price Distribution Across Car Brands**  
+
+3. **Price Distribution Across Car Brands**  
    A boxplot visualization displaying the distribution of car prices for all brands on a logarithmic scale.  
    Outliers are hidden to focus on the core price range, providing insight into the typical price ranges and variability within each brand, and allowing comparison across multiple manufacturers.
+   
    ![Описание](images/demo_plot_2.png)
 
+
    
-4. **Fastest Cars Accelerating from 0 to 60 MPH Under 3 Seconds with Price Coloring**  
+5. **Fastest Cars Accelerating from 0 to 60 MPH Under 3 Seconds with Price Coloring**  
    This bar chart displays car models capable of accelerating from 0 to 60 mph in under 3 seconds.  
    Cars are sorted by their acceleration time in descending order. Each bar is color-coded based on the car's price, helping to quickly compare performance against cost.  
    The color gradient represents the price range, with a capped upper limit to ensure visual clarity between extremely high-priced models and the rest.  
    This chart allows for an intuitive comparison between speed and cost across elite supercars.
+   
    ![Описание](images/demo_plot_3.png)
 
 
-5. **Relationship Between Engine Size and Price**  
+
+7. **Relationship Between Engine Size and Price**  
    A quadratic regression plot that demonstrates how engine size (in liters) affects the car price, plotted on a logarithmic scale.  
    This visualization helps to understand the correlation between engine capacity and market value, categorizing prices into low, medium, and high tiers based on engine displacement.
+   
    ![Описание](images/demo_plot_4.png)
 
 
