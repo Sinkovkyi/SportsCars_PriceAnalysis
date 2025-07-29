@@ -65,7 +65,7 @@ The final output of this project includes:
 
 - A Python script that loads, cleans, and analyzes the sports car data.
 
-- Four insightful visualizations illustrating price trends, distribution, fastest cars, and engine size impact on price.
+- Four insightful visualizations illustrating price trends, distribution, and the impact of speed and engine size on car price.
 
 - Use of logarithmic scales and regression models to communicate market patterns.
 
