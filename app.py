@@ -63,9 +63,8 @@ def plot_price_distribution(df):
     custom_yticks = [25000, 75000, 125000, 250000, 500000, 1000000, 2000000]
     ytick_labels = [f"${int(p):,}" for p in custom_yticks]
 
-    plt.yticks(custom_yticks, ytick_labels)
+    plt.yticks(custom_yticks, ytick_labels, fontsize=12)
     plt.xticks(rotation=45, ha='right', fontsize=10)
-    plt.yticks(fontsize=12)
     plt.title('Price distribution by Brand', fontsize=18)
     plt.xlabel('')
     plt.ylabel('')
