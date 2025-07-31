@@ -8,7 +8,7 @@ df = pd.read_csv(r"Sport_car_price.csv", sep=',')
 
 #Cleaning and converting relevant columns to numeric types for accurate analysis
 df.dropna(inplace=True)
-df['Price (in USD)'] = df['Price (in USD)'].replace('[\$,]', '', regex=True).astype(float)
+df['Price (in USD)'] = df['Price (in USD)'].replace(',', '', regex=True).astype(float)
 df['Horsepower'] = pd.to_numeric(df['Horsepower'], errors='coerce')
 df['0-60 MPH Time (seconds)'] = pd.to_numeric(df['0-60 MPH Time (seconds)'], errors='coerce')
 df['Engine Size (L)'] = pd.to_numeric(df['Engine Size (L)'], errors='coerce')
